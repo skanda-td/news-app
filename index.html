@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Daily Brief</title>
+
+  <!-- Responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body class="dark">
+
+  <!-- ================= HEADER ================= -->
+  <header class="app-header">
+    <div class="header-inner">
+      <h1>Daily Brief</h1>
+      <p class="subtitle">Clear headlines for a 10-minute morning read</p>
+    </div>
+  </header>
+
+  <!-- ================= MAIN ================= -->
+  <main>
+    <section>
+      <h2>India</h2>
+      <div id="india-news" class="news-list"></div>
+    </section>
+
+    <section>
+      <h2>Karnataka</h2>
+      <div id="karnataka-news" class="news-list"></div>
+    </section>
+
+    <section>
+      <h2>World</h2>
+      <div id="world-news" class="news-list"></div>
+    </section>
+
+    <section>
+      <h2>Cricket</h2>
+      <div id="cricket-news" class="news-list"></div>
+    </section>
+
+    <section>
+      <h2>Football</h2>
+      <div id="football-news" class="news-list"></div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="app-footer">
+    <div class="footer-inner">
+      <span class="footer-text">
+        Calm daily reading · Powered by Google News
+        <span id="lastUpdated"></span>
+      </span>
+
+      <div class="footer-controls">
+        <button id="themeToggle" title="Light / Dark">☀️</button>
+        <button id="readingToggle" title="Reading mode">📖</button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================= SCRIPT ================= -->
+  <script src="script.js"></script>
+</body>
+</html>
