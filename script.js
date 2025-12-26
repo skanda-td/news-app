@@ -89,7 +89,7 @@ function renderSection(container, items, section) {
             </a>
           </h3>
           <p class="news-context">${context}</p>
-          <p class="news-source">Source: ${item.source.toUpperCase()}</p>
+          <p class="news-source">Source: ${item.source}</p>
         </div>
         <img src="${imgs[i] || imgs[0] || ""}" alt="">
       </article>
