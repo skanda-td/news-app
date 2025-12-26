@@ -58,7 +58,11 @@ section h2 {
   grid-template-columns: 1fr 80px;
   gap: 1rem;
   padding-bottom: 1rem;
-  border-bottom: 1px solid rgba(255,255,255,0.1);
+  border-bottom: 1px solid rgba(255,255,255,0.12);
+}
+
+body.light .news-card {
+  border-bottom: 1px solid rgba(0,0,0,0.12);
 }
 
 .news-card h3 {
@@ -90,8 +94,12 @@ section h2 {
 
 /* Footer */
 .app-footer {
-  border-top: 1px solid rgba(255,255,255,0.1);
+  border-top: 1px solid rgba(255,255,255,0.12);
   padding: 1.5rem 1rem;
+}
+
+body.light .app-footer {
+  border-top: 1px solid rgba(0,0,0,0.12);
 }
 
 .footer-inner {
